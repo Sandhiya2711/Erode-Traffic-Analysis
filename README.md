@@ -1,55 +1,79 @@
-# Erode Traffic Analysis
+# Namakkal City Traffic Dataset
 
-## Project Overview
-This project focuses on traffic data preprocessing and analysis for Erode District.  
-The aim is to clean raw traffic data and prepare it for machine learning and data analysis tasks.
+## 📌 Project Overview
+This repository contains a traffic dataset collected for Namakkal city.  
+The dataset helps analyze traffic conditions, study congestion patterns, and understand traffic behavior across different locations and time periods.
 
----
-
-## Dataset Details
-
-### Raw Dataset
-- File: `Erode-Traffic-Analysis uncleaned.csv`
-- Description:  
-  This file contains the original, unprocessed traffic data collected for Erode District.
-- Issues in raw data:
-  - Missing values
-  - Categorical (text) data
-  - Different value ranges
-
-### Preprocessed Dataset
-- File: `Erode-Traffic-Analysis preprocessed.csv`
-- Description:  
-  This file contains the cleaned and transformed version of the raw dataset, ready for analysis and machine learning.
+This dataset is useful for:
+- Data analysis  
+- Dashboard creation  
+- Student mini projects  
+- Traffic monitoring studies  
 
 ---
 
-## Data Preprocessing Steps
-1. Missing values were handled  
-   - Numerical columns filled using mean  
-   - Categorical columns filled using mode  
-
-2. Categorical features were converted into numerical values using label encoding  
-
-3. Feature scaling was applied using Min-Max normalization to bring all values into a 0–1 range  
+## 📂 Dataset Details
+- **File Name:** namakkal_city_traffic_dataset.csv  
+- **Number of Rows:** 1000  
+- **Number of Columns:** 10  
+- **Format:** CSV (Comma Separated Values)
 
 ---
 
-## Tools and Technologies Used
-- Python  
-- Pandas  
-- Scikit-learn  
-- GitHub  
+## 🧾 Column Description
+
+| Column Name | Description |
+|------------|------------|
+| Location | Area or junction name |
+| Date | Date of observation |
+| Time | Time of traffic record |
+| Vehicle_Count | Total number of vehicles |
+| Traffic_Density | Low / Medium / High |
+| Average_Speed | Average speed of vehicles (km/h) |
+| Road_Type | Main road / Street / Highway |
+| Weather | Weather condition |
+| Accident_Reported | Yes / No |
+| Signal_Status | Green / Yellow / Red |
 
 ---
 
-## Applications
-- Traffic congestion prediction  
-- Accident risk analysis  
-- Data visualization dashboards  
-- Final year academic project  
+## 🎯 Purpose of the Dataset
+- Identify high traffic zones  
+- Analyze peak traffic hours  
+- Study the impact of weather and accidents  
+- Support traffic dashboards and visualizations  
+- Help students understand real-world data  
 
 ---
 
-## Conclusion
-The preprocessing steps ensure that the dataset is clean, consistent, and suitable for further analysis and machine learning models.
+## 📊 Possible Use Cases
+- Traffic analysis dashboards (Power BI / Tableau)  
+- Python data analysis (Pandas, Matplotlib)  
+- Machine learning traffic prediction  
+- Academic assignments and presentations  
+
+---
+
+## 🛠 Tools You Can Use
+- Python (Pandas, NumPy, Matplotlib)  
+- Power BI  
+- Tableau  
+- Excel  
+- Google Data Studio  
+
+---
+
+## ▶ How to Use
+1. Download the CSV file  
+2. Open it using Excel, Power BI, or Python  
+3. Clean and preprocess the data  
+4. Create charts and dashboards  
+5. Analyze and present insights  
+
+---
+
+## 👨‍🎓 Suitable For
+- Engineering students  
+- Data science beginners  
+- Dashboard projects  
+- College presentations  
